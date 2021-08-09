@@ -1,0 +1,52 @@
+/**** Colors ****/
+$color-black: #00070b;
+$color-white: #ffffff;
+// $color-primary-blue: #338afa;
+$color-primary-blue: #22427d;
+$color-primary-grey: #838383;
+$color-primary-darkgrey: #636363;
+$color-primary-lightgrey: #bfbfbf;
+$color-light-orange: #fd8245;
+$color-primary-orange: #ff5c0b;
+$color-primary-orange-transparent: rgba(255, 92, 11, 0.8);
+$color-primary-orange-transparentHigh: rgba(255, 92, 11, 0.3);
+$color-dark-orange: #8f5100;
+$color-brown-orange: #8f3900;
+$color-darker-orange: #772801;
+$color-primary-grey-transparent: rgba(131, 131, 131, 0.6);
+$color-primary-yskool: #1e407c;
+
+// LIBRARY CHIP COLORS
+$color-chip-blue-background: hsl(170°, 100%, 80%);
+$color-chip-blue-text: darken($color-chip-blue-background, 50);
+$color-chip-magenta-background: hsl(330°, 100%, 80%);
+$color-chip-magenta-text: darken($color-chip-magenta-background, 50);
+$color-chip-orange-background: hsl(36°, 100%, 80%);
+$color-chip-orange-text: darken($color-chip-orange-background, 50);
+
+// old colors, used to be in productlanding page, since the container go deleted, the variables have been moved here.
+$mainOrange: #ff5c0b;
+$brightOrange: #ffbe9e;
+$orangeGradientOne: #c74a0b;
+$orangeGradientOneAlt: #8b2e00;
+$orangeGradientTwo: #ff8548;
+$orangeGradientTwoAlt: #9e5632;
+$alternateSectionColor: #fff9f5;
+$headingTextColor: #111;
+$contentTextColor: #333;
+$headingTextSize-m: 1.5rem;
+$headingTextSize-lm: 2.2rem;
+$pTextSize-m: 1.1rem;
+$pTextSize-lm: 1.5rem;
+$formTextMobile-m: 1rem;
+$formTextMobile-lm: 1.2rem;
+$altBackgroundColor: #fff9f5;
+.orange-text {
+  color: $mainOrange;
+}
+.white-bg {
+  background-color: #fff;
+}
+.orange-bg {
+  background-color: $alternateSectionColor;
+}

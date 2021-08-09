@@ -1,0 +1,168 @@
+
+@import './colors';
+
+
+
+    .product {
+      box-shadow: 0 8px 24px rgb(149 157 165 / 20%);
+      background:  #566D956E;
+
+      
+  text-decoration: none;
+  position: relative;
+  transition: transform 300ms ease-in;
+  &:hover {
+  transform: scale(1.02);
+    box-shadow: 0px 5px 17px -7px rgba(0, 0, 0, 0.75);
+    }
+  .MuiPaper-root{
+    box-shadow: 0 8px 24px rgb(149 157 165 / 20%);
+    background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+  }
+ 
+  p {
+    color: $color-primary-blue;
+  }
+    }
+    
+    .product__rating {
+      display: flex;
+      transition: transform 300ms ease-in;
+
+     
+    }
+    .Basket_button{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .product > img {
+    width: 100%;
+    object-fit: contain;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    transition: transform 300ms ease-in;
+    // &:hover {
+    //   transform: scale(1.07);
+    //   cursor: pointer;
+    // }
+
+    }
+    
+    .product > button {
+      background: #f0c14b;
+      border: 1px solid;
+      margin-top: 10px;
+      border-color: #16140e #9c7e31 #846a29;
+      transition: transform 300ms ease-in;
+
+      color: #111;
+      &:hover {
+        transform: scale(1.07);
+        cursor: pointer;
+      }
+    }
+    
+    .product__price {
+      margin-top: 5px;
+    }
+    
+    .product__info {
+      min-height: 40px;
+      margin-bottom: 15px;
+      transition: transform 100ms ease-in;
+    }
+      
+  .news_buttons {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    top: 5px;
+    right: 5px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    .button {
+      background-color: #fff;
+      box-shadow: 3px 3px 3.5px -1px #585858, -1px -1px 3px 1px #dcdcdc;
+      color: #22427d;
+      border-radius: 50%;
+      height: 25px;
+      width: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      svg {
+        margin: 0;
+        height: 90%;
+        width: 90%;
+      }
+    }
+  }
+  .news-chips {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    top: 5px;
+    left: 5px;
+    right: 15%;
+    .MuiChip-root {
+      height: auto;
+    }
+    .topic {
+      background-color: $color-chip-blue-background;
+      span {
+        color: $color-chip-blue-text;
+      }
+    }
+    .age-group {
+      background-color: $color-chip-magenta-background;
+      span {
+        color: $color-chip-magenta-text;
+      }
+    }
+    .level {
+      background-color: $color-chip-orange-background;
+      span {
+        color: $color-chip-orange-text;
+      }
+    }
+    .MuiChip-root {
+      color: #fff;
+      box-shadow: 3px 3px 3.5px -1px #585858, -1px -1px 7px 1px #dcdcdc;
+      .MuiChip-label {
+        font-size: 0.6rem;
+        font-weight: 600;
+        padding: 5px;
+        max-width: 25ch;
+      }
+    }
+  }
+  .news-item-image {
+    height: 240px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .news-item-topic,
+  .news-item-title {
+    margin: 5px 0;
+  }
+  .news-item-topic {
+    color: #22427d;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  .news-item-title {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .MuiCardActionArea-root {
+    .MuiCardContent-root {
+      padding: 5px;
+    }
+  }
+
